@@ -7,10 +7,9 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: bms.vijay.com   # (You can replace this with your actual domain or skip host)
-      http:
+         http:
         paths:
-          - path: /
+          - path: /vijay
             pathType: Prefix
             backend:
               service:
